@@ -33,10 +33,10 @@
             <timezone>+8</timezone>
         </developer>
     </developers>
-    <modules>
-        <module>shiro-oauth-core</module>
-        <module>shiro-oauth-spring</module>
-    </modules>
+    <subprojects>
+        <subproject>shiro-oauth-core</subproject>
+        <subproject>shiro-oauth-spring</subproject>
+    </subprojects>
     <properties>
         <!-- ═══ 第一段: 基础属性（自然排序）═══ -->
         <java.version>21</java.version>
